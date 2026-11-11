@@ -2,7 +2,7 @@ package ISP;
 
 public class ServicoPedidos implements  GerenciadorPedidos{
     @Override
-    public void criarPedido(String pedido) {
+    public void criarPedido(int pedido) {
         System.out.println("Pedido: " + pedido + " | Criado");
     }
 
