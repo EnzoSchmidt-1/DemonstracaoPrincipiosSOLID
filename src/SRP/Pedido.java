@@ -1,6 +1,13 @@
 package SRP;
 
-public class pedido {
+/*
+ * Princípio da Responsabilidade Única:
+ * cada classe deve ter apenas um motivo para mudar.
+ * Aqui, Pedido só guarda os dados do pedido.
+ * Salvar fica no PedidoRepository e exibir fica no PedidoPrinter.
+ */
+
+public class Pedido {
     private int idPedido;
 
     private int cliente;

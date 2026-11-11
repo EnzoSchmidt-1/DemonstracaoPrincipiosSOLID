@@ -3,6 +3,8 @@ package SRP;
 import java.util.ArrayList;
 import java.util.List;
 
+// Esta classe só cuida de salvar e buscar pedidos.
+
 public class PedidoRepository {
     private List<Pedido> pedidos = new ArrayList<>();
 
