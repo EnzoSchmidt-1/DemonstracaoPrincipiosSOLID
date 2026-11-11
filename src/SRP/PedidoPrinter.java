@@ -1,5 +1,7 @@
 package SRP;
 
+// Esta classe só cuida de exibir o pedido.
+
 public class PedidoPrinter {
     public void imprimir(Pedido pedido) {
         System.out.println("Pedido #" + pedido.getIdPedido());
