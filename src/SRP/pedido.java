@@ -1,3 +1,5 @@
+package SRP;
+
 public class pedido {
     private int idPedido;
 
