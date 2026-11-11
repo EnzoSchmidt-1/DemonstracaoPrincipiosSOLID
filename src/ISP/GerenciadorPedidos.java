@@ -1,4 +1,6 @@
 package ISP;
 
-public class GerenciadorPedidos {
+public interface GerenciadorPedidos {
+    void criarPedido(String pedido);
+    void cancelarPedido(int id);
 }

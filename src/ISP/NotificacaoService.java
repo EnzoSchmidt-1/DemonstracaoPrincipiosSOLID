@@ -1,4 +1,6 @@
 package ISP;
 
-public class NotificacaoService {
+public interface NotificacaoService {
+    void enviar(String mensagem);
 }
+

@@ -1,4 +1,5 @@
 package ISP;
 
-public class GeradorRelatorio {
+public interface GeradorRelatorio {
+    void gerarRelatorio();
 }

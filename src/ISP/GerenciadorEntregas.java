@@ -1,4 +1,6 @@
 package ISP;
 
-public class GerenciadorEntregas {
+public interface GerenciadorEntregas {
+    void iniciarEntrega(int idPedido);
+    void finalizarEntrega(int idPedido);
 }
